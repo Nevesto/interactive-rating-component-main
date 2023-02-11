@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Overppass", sans-serif;
+  font-size: 15px;
+  background-color: hsl(216deg, 12%, 8%);
+  margin: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  background-color: hsl(213deg, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+.container img {
+  background-color: hsla(216deg, 12%, 54%, 0.1);
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+.container h2 {
+  color: hsl(0deg, 0%, 100%);
+  margin: 2rem 0 1rem;
+}
+.container p {
+  color: hsl(217deg, 12%, 63%);
+  margin-bottom: 1rem;
+}
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.container ul li button {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+  background-color: hsla(216deg, 12%, 54%, 0.1);
+  color: hsla(0deg, 0%, 100%, 0.7);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container ul li button:hover {
+  background: hsl(25deg, 97%, 53%);
+}
+.container ul li button:focus {
+  background: hsl(217deg, 12%, 63%);
+}
+
+.btn-submit {
+  background: hsl(25deg, 97%, 53%);
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 0.8rem 0 0.7rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+.btn-submit:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  transition: 0.5s;
+}
+
+.submited {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 400px;
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+.submited img {
+  display: block;
+  margin: 0 auto 2rem;
+}
+.submited .grey {
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsla(216deg, 12%, 54%, 0.1);
+  border-radius: 2rem;
+  display: inline-block;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+.submited h2 {
+  margin-bottom: 1rem;
+}
+.submited p {
+  color: hsl(217deg, 12%, 63%);
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-family: inherit;
+  color: hsl(0deg, 0%, 100%);
+}
+
+p {
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=main.css.map */
